@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hommmmme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white_1000"
+    tools:context="smart.bin.iot.HOMMMMme">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+      >
+
+        <Spinner
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/binSpinner"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:spinnerMode="dropdown"
+           >
+            ></Spinner>
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="275dp"
+            android:layout_height="40dp"
+            android:id="@+id/binLocations"
+            android:background="@drawable/write_text"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_marginBottom="20dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/addBin1"
+        android:text="addBin"
+        android:gravity="center"
+        android:textColor="@color/white_1000"
+        android:theme="@style/MyButton"
+        android:fontFamily="monospace"
+        />
+
+
+
+
+
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/clearBin2"
+        android:gravity="center"
+        android:text="cleanBin"
+        android:textColor="@color/white_1000"
+        android:theme="@style/MyButton"
+        android:fontFamily="monospace"
+        />
+
+
+
+
+</LinearLayout>

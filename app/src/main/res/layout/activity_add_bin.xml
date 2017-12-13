@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_bin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#fbfbfc"
+    tools:context="smart.bin.iot.AddBin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/qranim" />
+
+            <Button
+
+                android:id="@+id/scann"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="roboto_thin"
+                android:text="scan"
+                android:textColor="#FFF"
+                android:theme="@style/MyButton" />
+
+            <EditText
+                android:id="@+id/addbinscancodes"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/write_text"
+                android:gravity="center"
+                android:hint="QR codes"
+                android:textColor="@color/green_300" />
+
+            <Spinner
+                android:id="@+id/binlocSpin"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/write_text"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:spinnerMode="dialog"
+                android:textColor="@color/green_700">
+
+            </Spinner>
+
+            <EditText
+                android:id="@+id/addbincapacity"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/write_text"
+                android:gravity="center"
+                android:hint="Current Capacity"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/green_500" />
+
+            <EditText
+                android:id="@+id/addbinemail"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/write_text"
+                android:gravity="center"
+                android:hint="Email"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+
+            <Button
+                android:id="@+id/abadd"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="AddBin"
+                android:textColor="#FFF"
+                android:theme="@style/MyButton" />
+
+
+            <android.support.design.widget.CoordinatorLayout
+                android:id="@+id/snackbarCoordinatorLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foregroundGravity="center">
+
+            </android.support.design.widget.CoordinatorLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

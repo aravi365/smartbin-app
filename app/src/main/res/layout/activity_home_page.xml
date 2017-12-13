@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_1000"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="smart.bin.iot.HomePage">
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:theme="@style/MyButton"
+        android:textColor="#FFF"
+        android:fontFamily="roboto_thin"
+        android:id="@+id/addBin"
+        android:text="addBin"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:theme="@style/MyButton"
+        android:textColor="#FFF"
+        android:fontFamily="roboto_thin"
+        android:id="@+id/clearBin"
+        android:text="clearBin"
+        />
+<!---
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:theme="@style/MyButton"
+            android:textColor="#FFF"
+            android:fontFamily="roboto_thin"
+            android:id="@+id/getbinLocation"
+            android:text="GetBinLocations"
+            />
+            -->
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:theme="@style/MyButton"
+            android:textColor="#FFF"
+            android:fontFamily="roboto_thin"
+            android:id="@+id/binstatus"
+            android:text="Binstatus"
+            />
+
+
+
+    </LinearLayout>

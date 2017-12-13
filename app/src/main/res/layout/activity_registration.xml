@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brain.wastebin.smart.bin.iot.MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            android:background="@drawable/regic"
+
+            android:id="@+id/scanQr"
+            android:layout_weight="0.70" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:id="@+id/firstname"
+
+            android:gravity="center"
+            android:hint="Firstname"
+            android:background="@drawable/write_text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <EditText
+
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:id="@+id/lastname"
+            android:background="@drawable/write_text"
+            android:gravity="center"
+            android:hint="Lastname"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+        <!--<Spinner-->
+            <!--android:layout_width="350dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:id="@+id/locationSpinner"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingRight="10dp"-->
+
+            <!--android:spinnerMode="dialog"-->
+            <!--android:background="@drawable/write_text">-->
+
+        <!--</Spinner>-->
+
+        <EditText
+
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:id="@+id/mobile"
+            android:background="@drawable/write_text"
+            android:gravity="center"
+            android:hint="Mobile Number"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <EditText
+
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:id="@+id/email"
+            android:background="@drawable/write_text"
+            android:gravity="center"
+            android:hint="Email"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <!--<EditText-->
+
+            <!--android:layout_width="350dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:id="@+id/currentCapacity"-->
+            <!--android:background="@drawable/write_text"-->
+            <!--android:gravity="center"-->
+            <!--android:hint="Bin Capacity"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingRight="10dp"-->
+            <!--/>-->
+        <!--<EditText-->
+
+            <!--android:layout_width="350dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:id="@+id/qrresult"-->
+            <!--android:background="@drawable/write_text"-->
+            <!--android:gravity="center"-->
+            <!--android:hint="Your scanned QR code"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingRight="10dp"-->
+            <!--/>-->
+
+        <EditText
+
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:id="@+id/passwordd"
+            android:background="@drawable/write_text"
+            android:gravity="center"
+            android:hint="Password"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:id="@+id/register"
+            android:gravity="center"
+            android:text="Register"
+            android:textColor="@color/white_1000"
+            android:theme="@style/MyButton"
+            android:fontFamily="monospace"
+            />
+       <!-- <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:id="@+id/loginn"
+
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="#FFF"
+            android:fontFamily="monospace"
+
+            /> -->
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

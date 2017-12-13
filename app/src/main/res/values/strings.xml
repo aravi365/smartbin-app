@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmartBin</string>
+    <string name="location">Select Your Bin Location</string>
+    <string name="title_activity_bin_location">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
